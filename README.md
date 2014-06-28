@@ -1,4 +1,4 @@
 gulp-testing
 ============
 
-Playing around with gulp.js and automated testing.
+Playing around with gulp.js and automated testing!
