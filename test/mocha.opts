@@ -1,3 +1,2 @@
 --compilers coffee:coffee-script/register
---reporter mocha-spec-cov-alt
---require test/setup
+--reporter spec

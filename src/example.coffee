@@ -1,4 +1,4 @@
-add = (x, y = 5) ->
+add = (x, y) ->
     x + y
 
 greet = (person) ->
