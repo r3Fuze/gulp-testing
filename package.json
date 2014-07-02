@@ -21,10 +21,28 @@
   },
   "homepage": "https://github.com/r3Fuze/gulp-testing",
   "devDependencies": {
+    "blanket": "^1.1.6",
     "chai": "^1.9.1",
-    "mocha": "^1.20.1"
+    "mocha": "^1.20.1",
+    "mocha-spec-cov-alt": "^0.1.1"
   },
   "dependencies": {
     "coffee-script": "^1.7.1"
+  },
+  "config": {
+    "blanket": {
+      "data-cover-never": "node_modules",
+      "data-cover-only": ".coffee",
+      "pattern": "src/",
+      "loader": "./node-loaders/coffee-script",
+      "data-cover-reporter-options": {
+        "shortnames": true
+      },
+      "spec-cov": {
+        "threshold": 90,
+        "localThreshold": 90,
+        "lcovOutput": "./coverage/coverage.lcov"
+      }
+    }
   }
 }
