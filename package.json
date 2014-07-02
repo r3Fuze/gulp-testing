@@ -41,8 +41,7 @@
       },
       "spec-cov": {
         "threshold": 90,
-        "localThreshold": 90,
-        "lcovOutput": "coverage/coverage.lcov"
+        "localThreshold": 90
       }
     }
   }
