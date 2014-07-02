@@ -1,0 +1,30 @@
+{
+  "name": "gulp-testing",
+  "version": "0.0.0",
+  "description": "Playing around with gulp.js and automated testing!",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/r3Fuze/gulp-testing.git"
+  },
+  "keywords": [
+    "gulp",
+    "test"
+  ],
+  "author": "Morten Lindhardt <r3fuze@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/r3Fuze/gulp-testing/issues"
+  },
+  "homepage": "https://github.com/r3Fuze/gulp-testing",
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.20.1"
+  },
+  "dependencies": {
+    "coffee-script": "^1.7.1"
+  }
+}
